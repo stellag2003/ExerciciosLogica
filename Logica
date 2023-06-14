@@ -1,0 +1,98 @@
+         1)
+         double votosBrancos=10000;
+         double votosNulos=10000;
+         double total_eleitores=50000;
+         double votosValidos= 30000;
+         double porcentagemBrancos= votosBrancos/total_eleitores;
+         double porcentagemNulos= votosNulos/total_eleitores;
+         double porcentagemValidos= votosValidos/total_eleitores;
+        
+        
+       
+        Console.WriteLine($"Total de eleitores:{total_eleitores}");
+      
+        Console.WriteLine($"Numero de votos brancos:{votosBrancos}");
+        
+        Console.WriteLine($"Numero de votos nulos:{votosNulos}");
+     
+        Console.WriteLine($"Numero de votos validos:{votosValidos}");
+        
+        Console.WriteLine("Percentual de votos:");
+        
+        Console.WriteLine($"Votos brancos:{porcentagemBrancos}%");
+        
+        Console.WriteLine($"Votos nulos: {porcentagemNulos}%");
+        
+        Console.WriteLine($"Votos validos:{porcentagemValidos}%");
+        
+        
+       2)
+       double salario= 2000;
+       double reajuste= 10;
+       double porcentagem= salario/reajuste/10;
+       
+       
+       Console.WriteLine($"Seu salario e:R${salario}");
+       Console.WriteLine($"Seu reajuste sera de R$ {reajuste}");
+       Console.WriteLine($"Voce teve um aumento de{porcentagem}% !");
+       
+       
+       3)
+       double salario= 2000;
+       double comissao= 300;
+       double carro1= 30000;
+       double carro2= 40000;
+       double carro3= 30000;
+       double vendas_totais= carro1+carro2+carro3;
+       double taxaCarro1= carro1 * 5/100;
+       double taxaCarro2= carro2 * 5/100;
+       double taxaCarro3= carro3 * 5/100;
+       
+      
+       Console.WriteLine($"Voce vendeu 3 carros");
+       Console.WriteLine($"Voce vendeu R${(vendas_totais +300*3) + taxaCarro1 + taxaCarro2 + taxaCarro3}");
+       Console.WriteLine($"O seu salario ao final desse mes sera: {salario + 300*3 + taxaCarro1 + taxaCarro2 + taxaCarro3 }");
+       
+       
+       4)
+       double base1;
+       double altura;
+       double area;
+        
+        
+        
+        
+      Console.WriteLine("Digite o valor da base do retangulo");
+      base1=double.Parse(Console.ReadLine());
+      
+      Console.WriteLine("Digite o valor da altura do retangulo");
+      altura=double.Parse(Console.ReadLine());
+      
+      Console.WriteLine($"A area e:{base1 * altura} ");
+      
+      
+      5)
+       double numero1= 12;
+       double antecessor= numero1 - 1;
+      
+       Console.WriteLine($"Numero:{numero1}");
+       Console.WriteLine($"Antecessor: {antecessor}");
+      
+      
+      6)
+       double F= 99;
+       double C= (F-32)/1.8;
+       
+       Console.WriteLine($"F= {F}");
+       Console.WriteLine($"{C}");
+       
+       
+       7)
+       
+      
+       
+       
+       
+       
+       
+       
