@@ -59,9 +59,7 @@
        double altura;
        double area;
         
-        
-        
-        
+           
       Console.WriteLine("Digite o valor da base do retangulo");
       base1=double.Parse(Console.ReadLine());
       
