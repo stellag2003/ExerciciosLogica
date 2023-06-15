@@ -155,7 +155,40 @@
            Console.WriteLine($"{resposta2},{resposta1}");
        }       
 
+
        10)
+       double valor1;
+       double valor2;
+       double valor3;
+       double resposta1;
+       double resposta2;
+       double resposta3;
+       
+       Console.WriteLine("Digite um numero");
+       resposta1=double.Parse(Console.ReadLine());
+       Console.WriteLine("Digite outro numero");
+       resposta2=double.Parse(Console.ReadLine());
+       Console.WriteLine("Digite outro numero");
+       resposta3=double.Parse(Console.ReadLine());
+       
+       
+         if(resposta1 > resposta2 && resposta1 > resposta3)
+       {
+           Console.WriteLine($"{resposta1+resposta2}");
+       
+       
+       }
+       
+       else
+       {
+           
+       }
+       
+       if(resposta2 > resposta1)
+       {
+           Console.WriteLine($"{resposta2+resposta1}");
+       } 
+
        
        
       
