@@ -171,6 +171,195 @@
 
 
       11)
+       double valor1= 4;
+       double valor2=10;
+       double valor3=27;
+       
+       
+       while(valor2 > valor1 && valor3 > valor1 && valor3 > valor2)
+       {
+           Console.WriteLine($"{valor3},{valor2},{valor1}");
+           break;
+       }
+
+
+       12)
+       double x= 3;
+       double y= 2;
+       double z;
+       string respostaa="A";
+       string respostab="B";
+       string respostac="C";
+       
+       
+       
+       Console.WriteLine($"{z= (x*y) + 5}");
+       
+       
+       if(z<=0)
+       {
+           Console.WriteLine($"{respostaa}");
+       }
+      
+       
+       if(z<=100) 
+       {
+           Console.WriteLine($"{respostab}");
+       }
+       
+       
+       else
+       {
+          Console.WriteLine($"{respostac}");
+       }
+       
+       
+         Console.WriteLine($"{z} {respostab}");
+
+
+       double x= 150;
+       double y= 3;
+       double z;
+       string respostaa="A";
+       string respostab="B";
+       string respostac="C";
+       
+       
+       
+       Console.WriteLine($"{z= (x*y) + 5}");
+       
+       
+       if(z<=0)
+       {
+           Console.WriteLine($"{respostaa}");
+       }
+      
+       
+       if(z<=100) 
+       {
+           Console.WriteLine($"{respostab}");
+       }
+       
+       
+       else
+       {
+          Console.WriteLine($"{respostac}");
+       }
+       
+       
+         Console.WriteLine($"{z} {respostac}");
+
+
+       double x=7 ;
+       double y=-1;
+       double z;
+       string respostaa="A";
+       string respostab="B";
+       string respostac="C";
+       
+       
+       
+       Console.WriteLine($"{z= (x*y) + 5}");
+       
+       
+       if(z<=0)
+       {
+           Console.WriteLine($"{respostaa}");
+       }
+      
+       
+       if(z<=100) 
+       {
+           Console.WriteLine($"{respostab}");
+       }
+       
+       
+       else
+       {
+          Console.WriteLine($"{respostac}");
+       }
+       
+       
+         Console.WriteLine($"{z} {respostab}");
+         
+
+         
+         Console.ReadKey();
+
+
+          double x= -2;
+       double y= 5;
+       double z;
+       string respostaa="A";
+       string respostab="B";
+       string respostac="C";
+       
+       
+       
+       Console.WriteLine($"{z= (x*y) + 5}");
+       
+       
+       if(z<=0)
+       {
+           Console.WriteLine($"{respostaa}");
+       }
+      
+       
+       if(z<=100) 
+       {
+           Console.WriteLine($"{respostab}");
+       }
+       
+       
+       else
+       {
+          Console.WriteLine($"{respostac}");
+       }
+       
+       
+         Console.WriteLine($"{z} {respostaa} {respostab}");
+
+
+           double x= 50;
+       double y= 3;
+       double z;
+       string respostaa="A";
+       string respostab="B";
+       string respostac="C";
+       
+       
+       
+       Console.WriteLine($"{z= (x*y) + 5}");
+       
+       
+       if(z<=0)
+       {
+           Console.WriteLine($"{respostaa}");
+       }
+      
+       
+       if(z<=100) 
+       {
+           Console.WriteLine($"{respostab}");
+       }
+       
+       
+       else
+       {
+          Console.WriteLine($"{respostac}");
+       }
+       
+       
+         Console.WriteLine($"{z} {respostac}");
+       
+       
+         
+         
+         
+         
+         
+         
+       
       
       
        
