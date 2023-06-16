@@ -351,7 +351,24 @@
        
        
          Console.WriteLine($"{z} {respostac}");
+
+
+       13)
        
+        int contador = 0;
+         
+         
+        while(contador <= 80);
+        
+        {
+            
+            Console.WriteLine($"8*{contador}");
+            contador = contador+1;
+            
+            
+            
+        }  
+        
        
          
          
