@@ -86,7 +86,7 @@
        
        
        7)
-7)
+
          double macas;
         double preco1= 1.30;
         double preco2= 12.00;
@@ -157,38 +157,22 @@
 
 
        10)
-       double valor1;
-       double valor2;
-       double valor3;
-       double resposta1;
-       double resposta2;
-       double resposta3;
-       
-       Console.WriteLine("Digite um numero");
-       resposta1=double.Parse(Console.ReadLine());
-       Console.WriteLine("Digite outro numero");
-       resposta2=double.Parse(Console.ReadLine());
-       Console.WriteLine("Digite outro numero");
-       resposta3=double.Parse(Console.ReadLine());
+       double valor1= 4;
+       double valor2=10;
+       double valor3=27;
        
        
-         if(resposta1 > resposta2 && resposta1 > resposta3)
+       
+       while(valor1 < valor2 && valor1< valor3)
        {
-           Console.WriteLine($"{resposta1+resposta2}");
-       
-       
+           Console.WriteLine($"A soma dos dois maiores e: {valor2+valor3}");
+           break;
        }
-       
-       else
-       {
-           
-       }
-       
-       if(resposta2 > resposta1)
-       {
-           Console.WriteLine($"{resposta2+resposta1}");
-       } 
 
+
+      11)
+      
+      
        
        
       
